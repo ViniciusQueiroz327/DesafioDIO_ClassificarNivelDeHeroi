@@ -12,19 +12,19 @@ else {
 
 // -------------------------------------------------------------- //
 
-const fruta = "maracujá"
+const fruit = "passionfruit"
 
-switch(fruta) {
-    case "morango":
-        console.log("Suco de " + fruta)
+switch(fruit) {
+    case "strawberry":
+        console.log(fruit + " juice")
         break
     case "banana":    
-        console.log("Suco de " + fruta)
+        console.log(fruit + " juice")
         break
-    case "maracujá": 
-        console.log("Suco de " + fruta)
+    case "passionfruit": 
+        console.log(fruit + " juice")
         break
     default:
-        console.log("Suco de nada")
+        console.log("No juice at all")
         break
 }

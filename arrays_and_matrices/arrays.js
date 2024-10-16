@@ -12,6 +12,6 @@ console.log(pokemonsList[4])
 
 console.log("----------------------")
 
-pokemonsList.pop() //remove o último elemento da lista
+pokemonsList.pop() //removes the last array element
 
 console.log(pokemonsList)

@@ -4,9 +4,9 @@ let player = [
     ["Leaker", 7500]
 ]
 
-player.forEach((linha) => {
-    let name = linha[0]
-    let score = linha[1]
+player.forEach((line) => {
+    let name = line[0]
+    let score = line[1]
 
     if(score <= 1000 ) {
         console.log("The player " + name + " is Iron!")
@@ -30,7 +30,7 @@ player.forEach((linha) => {
         console.log("The player " + name + " is Ascendant!")
     }
     else if(score >= 10001 && score <= 11000) {
-        console.log("The player " + name + " is Imortal!")
+        console.log("The player " + name + " is Immortal!")
     }
     else {
         console.log("The player " + name + " is Radiant!")
